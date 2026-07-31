@@ -13,22 +13,6 @@
 
   <br><br>
 
-  <!-- Top Languages Visualization (Centered) -->
-  <p align="center">
-    <img src="https://raw.githubusercontent.com/Pranav-Mistry/Pranav-Mistry/main/profile/top-langs.svg" alt="Pranav Mistry Top Languages" width="68%" />
-  </p>
-
-  <br>
-
-  <!-- Animated Contribution Snake -->
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Pranav-Mistry/Pranav-Mistry/output/github-snake-dark.svg">
-    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Pranav-Mistry/Pranav-Mistry/output/github-snake.svg">
-    <img alt="Pranav Mistry Contribution Graph Snake" src="https://raw.githubusercontent.com/Pranav-Mistry/Pranav-Mistry/output/github-snake-dark.svg" width="100%">
-  </picture>
-
-  <br><br>
-
   <!-- Professional Contact Badges -->
   <a href="https://www.linkedin.com/in/pranav-m-mistry/">
     <img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" />
@@ -41,4 +25,13 @@
   <a href="https://github.com/Pranav-Mistry/Pranav-Mistry/blob/main/assets/Pranav-Mistry-Resume.pdf">
     <img src="https://img.shields.io/badge/Resume-10B981?style=for-the-badge&logo=read-the-docs&logoColor=white" alt="Resume" />
   </a>
+
+  <br><br>
+
+  <!-- Animated Contribution Snake -->
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Pranav-Mistry/Pranav-Mistry/output/github-snake-dark.svg">
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Pranav-Mistry/Pranav-Mistry/output/github-snake.svg">
+    <img alt="Pranav Mistry Contribution Graph Snake" src="https://raw.githubusercontent.com/Pranav-Mistry/Pranav-Mistry/output/github-snake-dark.svg" width="100%">
+  </picture>
 </div>
