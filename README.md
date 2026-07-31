@@ -38,4 +38,8 @@
   <a href="mailto:pranavmistry2005@gmail.com">
     <img src="https://img.shields.io/badge/Email-22D3EE?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" />
   </a>
+  &nbsp;
+  <a href="https://github.com/Pranav-Mistry/Pranav-Mistry/blob/main/assets/Pranav-Mistry-Resume.pdf">
+    <img src="https://img.shields.io/badge/Resume-10B981?style=for-the-badge&logo=read-the-docs&logoColor=white" alt="Resume" />
+  </a>
 </div>
