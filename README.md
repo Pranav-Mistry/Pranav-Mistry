@@ -13,10 +13,9 @@
 
   <br><br>
 
-  <!-- GitHub Stats & Top Languages (Side-by-Side) -->
+  <!-- Top Languages Visualization (Centered) -->
   <p align="center">
-    <img src="https://raw.githubusercontent.com/Pranav-Mistry/Pranav-Mistry/main/profile/stats.svg" alt="Pranav Mistry GitHub Stats" width="49%" />
-    <img src="https://raw.githubusercontent.com/Pranav-Mistry/Pranav-Mistry/main/profile/top-langs.svg" alt="Pranav Mistry Top Languages" width="49%" />
+    <img src="https://raw.githubusercontent.com/Pranav-Mistry/Pranav-Mistry/main/profile/top-langs.svg" alt="Pranav Mistry Top Languages" width="68%" />
   </p>
 
   <br>

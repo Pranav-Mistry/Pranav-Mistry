@@ -1,4 +1,4 @@
-name: Generate Profile Metrics & Languages
+name: Generate Top Languages Metrics
 
 'on':
   schedule:
@@ -13,15 +13,6 @@ jobs:
   github-metrics:
     runs-on: ubuntu-latest
     steps:
-      - name: Generate Overview Stats SVG
-        uses: lowlighter/metrics@v3.34
-        with:
-          filename: profile/stats.svg
-          token: ${{ secrets.GITHUB_TOKEN }}
-          base: header, activity, community
-          plugin_lines: yes
-          config_timezone: Asia/Kolkata
-
       - name: Generate Top Languages SVG
         uses: lowlighter/metrics@v3.34
         with:
@@ -32,4 +23,6 @@ jobs:
           plugin_languages_details: percentage
           plugin_languages_limit: 8
           plugin_languages_sections: most-used
+          plugin_languages_categories: markup, programming, data
+          plugin_languages_indepth: yes
           config_timezone: Asia/Kolkata
