@@ -1,0 +1,18 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Environment & OS files
+.DS_Store
+Thumbs.db
+*.swp
+*.tmp
+
+# Temporary debug artifacts
+debug-*.svg
+assets/previews/
+assets/timeline/
+
+# Private source photo (kept locally for generator, not pushed to public repo)
+assets/pranav-profile.png
