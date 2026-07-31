@@ -15,8 +15,8 @@
 
   <!-- GitHub Stats & Top Languages (Side-by-Side) -->
   <p align="center">
-    <img src="https://YOUR-VERCEL-INSTANCE.vercel.app/api?username=Pranav-Mistry&show_icons=true&hide_rank=true&count_private=true&include_all_commits=true&theme=dark&bg_color=0A101F&title_color=22D3EE&text_color=F8FAFC&icon_color=A78BFA&border_color=1E293B" alt="Pranav Mistry GitHub Stats" width="49%" />
-    <img src="https://YOUR-VERCEL-INSTANCE.vercel.app/api/top-langs/?username=Pranav-Mistry&layout=compact&langs_count=8&theme=dark&bg_color=0A101F&title_color=22D3EE&text_color=F8FAFC&border_color=1E293B" alt="Pranav Mistry Top Languages" width="49%" />
+    <img src="https://raw.githubusercontent.com/Pranav-Mistry/Pranav-Mistry/main/profile/stats.svg" alt="Pranav Mistry GitHub Stats" width="49%" />
+    <img src="https://raw.githubusercontent.com/Pranav-Mistry/Pranav-Mistry/main/profile/top-langs.svg" alt="Pranav Mistry Top Languages" width="49%" />
   </p>
 
   <br>

@@ -1,0 +1,34 @@
+name: Generate Profile Metrics & Languages
+
+'on':
+  schedule:
+    # Run daily at midnight UTC
+    - cron: "0 0 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  github-metrics:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Generate Overview Stats SVG
+        uses: lowlighter/metrics@v3.34
+        with:
+          filename: profile/stats.svg
+          token: ${{ secrets.GITHUB_TOKEN }}
+          base: header, activity, community
+          config_theme: dark
+          config_timezone: Asia/Kolkata
+
+      - name: Generate Top Languages SVG
+        uses: lowlighter/metrics@v3.34
+        with:
+          filename: profile/top-langs.svg
+          token: ${{ secrets.GITHUB_TOKEN }}
+          base: ""
+          plugin_languages: yes
+          plugin_languages_details: percentage
+          plugin_languages_limit: 8
+          config_theme: dark
